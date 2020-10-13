@@ -1,5 +1,8 @@
 package pos.machine;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -21,3 +24,6 @@ public class ItemDataLoader {
         return Arrays.asList("ITEM000000", "ITEM000000", "ITEM000000", "ITEM000000", "ITEM000001", "ITEM000001", "ITEM000004", "ITEM000004", "ITEM000004");
     }
 }
+
+
+
